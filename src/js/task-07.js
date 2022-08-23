@@ -5,7 +5,7 @@
 const input = document.getElementById("font-size-control");
 const span = document.getElementById("text");
 
-span.style.fontSize = "52px";
+span.style.fontSize = input.value + "px";
 function handleInputRange(event) {
   span.style.fontSize = event.currentTarget.value + "px";
 }
